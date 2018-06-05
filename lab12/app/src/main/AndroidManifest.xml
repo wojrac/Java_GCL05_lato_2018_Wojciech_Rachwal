@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wojteg.lab12">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WebEntryActivity"
+            android:label="@string/title_activity_web_entry"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wojteg.lab12.MainActivity" />
+        </activity>
+        <activity
+            android:name=".WebEntry2Activity"
+            android:label="@string/title_activity_web_entry2"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wojteg.lab12.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Webwithage"
+            android:label="@string/title_activity_webwithage"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wojteg.lab12.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Web1siteadult"
+            android:label="@string/title_activity_web1siteadult"
+            android:parentActivityName=".Webwithage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wojteg.lab12.Webwithage" />
+        </activity>
+        <activity
+            android:name=".Web2siteadult"
+            android:label="@string/title_activity_web2siteadult"
+            android:parentActivityName=".Webwithage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wojteg.lab12.Webwithage" />
+        </activity>
+    </application>
+
+</manifest>

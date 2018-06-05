@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab12</string>
+    <string name="text_view_1">Wejdź w wybraną stronę internetową</string>
+    <string name="button1"> sport.pl</string>
+    <string name="button2">polsatsport.pl</string>
+    <string name="infoowieku">Jeśli chcesz wejść w inne strony podaj swój wiek</string>
+    <string name="button3">DALEJ</string>
+    <string name="witaj">WITAJ</string>
+    <string name="adultsite">Demotywatory.pl</string>
+    <string name="adultsize2">Onet.pl</string>
+    <string name="title_activity_web_entry">WebEntryActivity</string>
+    <string name="title_activity_web_entry2">WebEntry2Activity</string>
+    <string name="title_activity_webwithage">Webwithage</string>
+    <string name="title_activity_web1siteadult">Web1siteadult</string>
+    <string name="title_activity_web2siteadult">Web2siteadult</string>
+</resources>
